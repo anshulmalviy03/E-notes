@@ -29,6 +29,8 @@ public class HomeController implements HomeEndpoint {
 
 	@Autowired
 	private UserService userService;
+	
+	##
 
 	@Override
 	public ResponseEntity<?> verifyUserAccount(Integer uid, String code) throws Exception {
